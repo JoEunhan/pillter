@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1060063380917",
+    "firebase_url": "https://pillter.firebaseio.com",
+    "project_id": "pillter",
+    "storage_bucket": "pillter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060063380917:android:2eeb2e61757b0e5c5785fc",
+        "android_client_info": {
+          "package_name": "com.nani.pillter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1060063380917-lnsedverm59op69tsa5l8101a9ededt4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpLwNNeGQdqrwL8BHGj1S-ajfd3TK8v_g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1060063380917-lnsedverm59op69tsa5l8101a9ededt4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

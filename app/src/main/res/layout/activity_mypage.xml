@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MypageActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/mypage_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="회원 이름"
+            android:textSize="35dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 님의 회원정보"
+            android:textSize="35dp">
+          </TextView>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" - 이름: "
+            android:textSize="25dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/mypage_user_name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="email"
+            android:textSize="20dp">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" - 이메일: "
+            android:textSize="25dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/mypage_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="email"
+            android:textSize="20dp">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" - 성별: "
+            android:textSize="25dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/mypage_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sex"
+            android:textSize="20dp">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" - 나이: "
+            android:textSize="25dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/mypage_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="age"
+            android:textSize="20dp">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" - 질병: "
+            android:textSize="25dp">
+
+        </TextView>
+        <Button
+            android:id="@+id/mypage_disease_list"
+             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="나의 질병 목록 확인"
+            android:textSize="20dp">
+
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" - 복약: "
+            android:textSize="25dp">
+
+        </TextView>
+        <Button
+            android:id="@+id/mypage_drug_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="나의 복용 중인 약 목록 확인"
+            android:textSize="20dp">
+
+        </Button>
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="정보 수정"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="right">
+    </Button>
+</LinearLayout>

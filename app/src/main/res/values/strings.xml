@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">pillter</string>
+    <string-array name="disease_type">
+        <item>당뇨병</item>
+        <item>우울증</item>
+        <item>고혈압</item>
+        <item>저혈압</item>
+        <item>심장질환</item>
+        <item>간질환</item>
+    </string-array>
+
+    <string-array name="drug_type">
+        <item>타이레놀</item>
+        <item>코메키나</item>
+        <item>아스파탐 정</item>
+        <item>그날엔</item>
+        <item>큐시드</item>
+        <item>라니콤</item>
+    </string-array>
+
+    <string-array name="sex_type">
+        <item>여성</item>
+        <item>남성</item>
+
+    </string-array>
+
+</resources>

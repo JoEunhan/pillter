@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "212830112544",
+    "firebase_url": "https://pillter-b0f24.firebaseio.com",
+    "project_id": "pillter-b0f24",
+    "storage_bucket": "pillter-b0f24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212830112544:android:23b26b08392ad0770da545",
+        "android_client_info": {
+          "package_name": "com.nani.pillter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212830112544-h62rbcjq8t6u4aft094e85e5d4k5lm4g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nani.pillter",
+            "certificate_hash": "5a4e3d849de49ab9ac39fc0e33d4ee411c98e84d"
+          }
+        },
+        {
+          "client_id": "212830112544-ql9t9vfctsir507h3d0i01c16qeo5hep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAldLvGwqVy0MZzXjexQQDgITIK-orw7rk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212830112544-ql9t9vfctsir507h3d0i01c16qeo5hep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
